@@ -1,0 +1,49 @@
+5 7 0 1
+0 1 2
+0 2 4
+1 2 1
+1 3 5
+2 3 1
+2 4 2
+3 4 3
+
+
+/* Input format */
+
+n m r undir
+u v w_uv
+u v w_uv
+.
+.
+.
+u v w_uv
+
+
+Sample testcase:
+    s---2--a
+    |     /|
+    |    / |
+    4   /  5
+    |  1   |
+    | /    |
+    |/     |
+    b--1---c
+    \      /
+     2    3
+      \  /
+       d
+
+Input:
+    5 7 0 1
+    0 1 2
+    0 2 4
+    1 2 1
+    1 3 5
+    2 3 1
+    2 4 2
+    3 4 3
+
+Output:
+    Vertex name:     s a b c d
+    Vertex id:       0 1 2 3 4
+    Distance from 0: 0 2 3 4 5
