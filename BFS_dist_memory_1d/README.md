@@ -61,7 +61,7 @@ This will take all input files in `input/` and run the two algorithms on them. B
 
 ```bash
 ./run.sh seq <input_file>
-./run.sh mpi <input_file> <num_procs>
+./run.sh mpi <input_file> <output_file> <num_procs>
 ```
 
 #### Validating the outputs
